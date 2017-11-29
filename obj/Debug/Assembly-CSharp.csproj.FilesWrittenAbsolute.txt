@@ -1,0 +1,56 @@
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/obj/Debug/Assembly-CSharp.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/UnityEngine.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/UnityEditor.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/UnityEngine.UIAutomation.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/UnityEngine.TestRunner.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/nunit.framework.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/UnityEngine.Timeline.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/UnityEngine.GoogleAudioSpatializer.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/UnityEngine.SpatialTracking.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/Vuforia.UnityExtensions.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/UnityEngine.Purchasing.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/Unity.Cecil.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/ExCSS.Unity.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/Unity.DataContract.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/Unity.Legacy.NRefactory.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/Unity.Cecil.Pdb.dll
+/Users/alexandrarunhem/Downloads/UnityFiles-master/Temp/bin/Debug/Unity.Cecil.Mdb.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/obj/Debug/Assembly-CSharp.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/UnityEngine.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/UnityEditor.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/UnityEngine.UIAutomation.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/UnityEngine.TestRunner.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/nunit.framework.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/UnityEngine.Timeline.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/UnityEngine.GoogleAudioSpatializer.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/UnityEngine.SpatialTracking.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/Vuforia.UnityExtensions.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/UnityEngine.Purchasing.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/Unity.Cecil.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/ExCSS.Unity.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/Unity.DataContract.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/Unity.Legacy.NRefactory.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/Unity.Cecil.Pdb.dll
+/Users/alexandrarunhem/Desktop/Projects/KTH/Avancerad projektkurs/HomoCollosusVuforia/Temp/bin/Debug/Unity.Cecil.Mdb.dll
