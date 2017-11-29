@@ -10,6 +10,8 @@ public class Human : MonoBehaviour {
     Rigidbody rigbod;
     Vector3 humanPosition;
 
+    Animator animator;
+
     public float scalerValue;
     float scaleTime;
     Vector3 tempScaleVector;
@@ -36,6 +38,7 @@ public class Human : MonoBehaviour {
     void Start ()
     {
         InitializeHuman();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -54,7 +57,7 @@ public class Human : MonoBehaviour {
     void InitializeHuman ()
     {
         transform.SetParent (GameObject.FindGameObjectWithTag("Plane").transform);
-        transform.position = new Vector3(Random.Range(-3.0f, 3.0f), 0.5f, Random.Range(-3.0f, 3.0f));
+        transform.position = new Vector3(Random.Range(-3.0f, 3.0f), 0.5f, Random.Range(0.0f, 3.0f));
         movementSpeed = 2;
         haveTarget = false;
 
@@ -142,7 +145,7 @@ public class Human : MonoBehaviour {
         distance = heading.magnitude;
         direction = heading/distance;
 
-
+        animator.SetFloat("distance", distance);
 
         // human arrived at target position
         if (distance < 1.5) // Scale this by the human's size, because it won't reach it otherwise

@@ -54,7 +54,7 @@ public class WorldScript : MonoBehaviour {
 
 
         // Spawns human
-        human = Instantiate (Resources.Load("Prefabs/human 1", typeof(GameObject))) as GameObject;
+        human = Instantiate (Resources.Load("Prefabs/human", typeof(GameObject))) as GameObject;
 
         // Spawn displays
         growHumanDisplay = Instantiate (Resources.Load("Prefabs/overviewDisplay", typeof(GameObject))) as GameObject;
