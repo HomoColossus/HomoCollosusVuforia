@@ -26,7 +26,6 @@ public class WorldScript : MonoBehaviour {
 	private float finalWeight;
 	private float calories;
 
-
     //private float timeLeft;
 
     void Awake()
@@ -62,10 +61,6 @@ public class WorldScript : MonoBehaviour {
 
         refHumanDisplay = Instantiate (Resources.Load("Prefabs/overviewDisplay", typeof(GameObject))) as GameObject;
         refHumanDisplay.transform.position = new Vector3(2.8f, 0.01f, -2.95f);
-
-
-
-
 
         //print ("human position from WorldScript: " +human.transform.position);
     }
@@ -148,7 +143,6 @@ public class WorldScript : MonoBehaviour {
         //print("tempFoodGO: " +tempFoodGO);
         human.GetComponent<Human>().SetTargetPosition(tempFoodGO);
 
-
         // Not working
         // Stop coroutine as new target is acquired whilst having an old unreacehd target
         //human.GetComponent<Human>().ScaleHandle(0, false);
@@ -158,6 +152,14 @@ public class WorldScript : MonoBehaviour {
 
     public void ReachedTarget ()
     {
+        // Code in Wait below
+        StartCoroutine(Wait()); 
+
+    }
+
+    IEnumerator Wait(){
+        yield return new WaitForSeconds(2);
+        
         Destroy(currentTarget);
         //print ("food destroyed");
 
@@ -166,8 +168,8 @@ public class WorldScript : MonoBehaviour {
 
         human.GetComponent<Human>().scalerValue = GetSliderValue();
 
-		SetKcalRow(calories);
-		SetWeightRow(finalWeight); 
+        SetKcalRow(calories);
+        SetWeightRow(finalWeight);
 
     }
 
