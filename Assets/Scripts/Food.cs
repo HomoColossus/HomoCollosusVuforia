@@ -26,7 +26,7 @@ public class Food : MonoBehaviour {
     void InitializeFood ()
     {
         transform.SetParent (GameObject.FindGameObjectWithTag("Plane").transform);
-        transform.position = new Vector3(Random.Range(-3.0f, 3.0f), 0.3f, Random.Range(-3.0f, 3.0f));
+        transform.position = new Vector3(Random.Range(-3.0f, 3.0f), 0.3f, Random.Range(0.0f, 3.0f));
     }
 
 

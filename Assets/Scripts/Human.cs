@@ -10,6 +10,8 @@ public class Human : MonoBehaviour {
     Rigidbody rigbod;
     Vector3 humanPosition;
 
+    Animator animator;
+
     public float scalerValue;
     float scaleTime;
     Vector3 tempScaleVector;
@@ -31,11 +33,13 @@ public class Human : MonoBehaviour {
     // OnClick display
     public GameObject onClickDisplay;
 
-
+    public GameObject parent;
 
     void Start ()
     {
         InitializeHuman();
+        animator = GetComponent<Animator>();
+        parent = GameObject.FindGameObjectWithTag("Player");
     }
 
     void Update()
@@ -53,9 +57,9 @@ public class Human : MonoBehaviour {
 
     void InitializeHuman ()
     {
-        transform.SetParent (GameObject.FindGameObjectWithTag("Plane").transform);
-        transform.position = new Vector3(Random.Range(-3.0f, 3.0f), 0.5f, Random.Range(-3.0f, 3.0f));
-        movementSpeed = 2;
+        transform.SetParent (GameObject.FindGameObjectWithTag("Player").transform);
+        transform.position = new Vector3(Random.Range(-3.0f, 3.0f), 0.5f, Random.Range(0.0f, 3.0f));
+        movementSpeed = 1;
         haveTarget = false;
 
         scalerValue = 1;
@@ -95,6 +99,8 @@ public class Human : MonoBehaviour {
         target = foodTarget;
         targetPosition = foodTarget.transform.position;
         haveTarget = true;
+        RotateTowardsTarget();
+        animator.SetBool("newclose", true);
 
     }
 
@@ -103,14 +109,16 @@ public class Human : MonoBehaviour {
     {
 
 
-        heading = targetPosition - transform.position;
-        distance = heading.magnitude;
-        direction = heading/distance;
+        //heading = transform.position - targetPosition;
 
+        //distance = heading.magnitude;
+        //direction = heading/distance;
+
+        //print(direction);
 
         // Rotate human towards target
-        float rotSpeed = 1;
-        float step = rotSpeed * Time.deltaTime;
+        //float rotSpeed = 1;
+        //float step = rotSpeed * Time.deltaTime;
 
         //print ("human rot: " +transform.rotation);
         //print("target")
@@ -126,8 +134,9 @@ public class Human : MonoBehaviour {
 
         //Vector3 tempRotator = Vector3.RotateTowards(transform.forward, heading, step, 0.0f);
         //transform.forward = Vector3.RotateTowards(transform.forward, heading, step, 0.0f);
-        transform.LookAt(target.transform);
 
+        transform.LookAt(target.transform);
+        transform.localRotation *= Quaternion.Euler(0, 180, 0);
         //turretTransform.rotation = Quaternion.Euler (0, lookRot.eulerAngles.y, 0);
 
 
@@ -141,12 +150,11 @@ public class Human : MonoBehaviour {
         heading = targetPosition - transform.position;
         distance = heading.magnitude;
         direction = heading/distance;
-
-
-
+        animator.SetBool("newclose", false);
         // human arrived at target position
-        if (distance < 1.5) // Scale this by the human's size, because it won't reach it otherwise
+        if (distance < 2.5) // Scale this by the human's size, because it won't reach it otherwise
         {
+            animator.SetFloat("distance", distance);
             //print ("human IS AT TARGET position: " +transform.position);
             //targetPosition = null; Do this in some other way
             haveTarget = false;
@@ -159,14 +167,14 @@ public class Human : MonoBehaviour {
 
         // human have not yet arrived at target position
         else 
-        {
-            transform.Translate (direction * Time.deltaTime * movementSpeed);
-            haveTarget = true;
+        {   
+            animator.SetFloat("distance", distance);
+            StartCoroutine(QuestAsync(direction));
+            //Rest of the code moved to QuestAsync
 
 
         }
     }
-
 
     public void ScaleHandle (float scaler, bool start)
     {
@@ -223,6 +231,11 @@ public class Human : MonoBehaviour {
 
     }
 
-
+    IEnumerator QuestAsync(Vector3 direction) {
+        yield return new WaitForSeconds(1);
+        parent.transform.Translate(direction * Time.deltaTime * movementSpeed);
+        //transform.Translate(direction * Time.deltaTime * movementSpeed);
+        haveTarget = true;
+    }
 
 }
